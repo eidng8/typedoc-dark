@@ -1,0 +1,20 @@
+{
+  "name": "g8-typedoc-dark",
+  "version": "0.1.1",
+  "description": "A dark theme for typedoc.",
+  "keywords": [
+    "typescript",
+    "typedoc",
+    "theme"
+  ],
+  "author": "eidng8",
+  "license": "GPL-3.0",
+  "repository": "git@github.com:eidng8/typedoc-dark.git",
+  "bugs": "git@github.com:eidng8/typedoc-dark/issues",
+  "files": [
+    "default"
+  ],
+  "peerDependencies": {
+    "typedoc": "^0.17.4"
+  }
+}
