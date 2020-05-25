@@ -7,15 +7,17 @@
 body,
 footer,
 .tsd-page-toolbar,
-.tsd-page-title {
+.tsd-page-title,
+.tsd-panel table tr {
   background-color: #333;
 }
 
-body,
-.tsd-page-toolbar,
-.tsd-page-title,
-.tsd-navigation a {
-  color: #aaa;
+.tsd-panel table tr:nth-child(2n) {
+  background-color: #393939;
+}
+
+.tsd-panel {
+  background-color: #222;
 }
 
 #tsd-search.has-focus,
@@ -38,29 +40,27 @@ body,
   background-color: #234;
 }
 
-.tsd-page-toolbar a {
-  color: #acf;
+.tsd-page-toolbar,
+.tsd-navigation.primary li,
+footer.with-border-bottom,
+.tsd-panel table th,
+.tsd-panel table td {
+  border-color: #666;
 }
 
+body,
+.tsd-page-toolbar,
+.tsd-page-title,
+.tsd-navigation a,
 #tsd-search .field input,
-#tsd-search .results {
-  color: #aaa;
-}
-
+#tsd-search .results,
 #tsd-search .results span.parent {
   color: #aaa;
 }
 
-.tsd-page-toolbar,
-.tsd-navigation.primary li,
-footer.with-border-bottom {
-  border-color: #666;
+.tsd-page-toolbar a {
+  color: #acf;
 }
-
-.tsd-panel {
-  background-color: #222;
-}
-
 
 .hljs-string,
 .hljs-title,
