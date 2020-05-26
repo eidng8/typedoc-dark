@@ -14,3 +14,13 @@ Add the follow config to tsconfig.json, or anything equivalent:
   }
 }
 ```
+
+There is also a `wide` theme that take full width of the page.
+
+```json
+{
+  "typedocOptions": {
+    "theme": "node_modules/g8-typedoc-dark/wide/"
+  }
+}
+```

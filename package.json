@@ -12,7 +12,8 @@
   "repository": "git@github.com:eidng8/typedoc-dark.git",
   "bugs": "git@github.com:eidng8/typedoc-dark/issues",
   "files": [
-    "default"
+    "default",
+    "wide"
   ],
   "peerDependencies": {
     "typedoc": "^0.17.4"
