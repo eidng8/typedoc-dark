@@ -4,6 +4,10 @@
  * Author: eidng8
  */
 
+.container {
+  max-width: unset;
+}
+
 body,
 footer,
 .tsd-page-toolbar,
